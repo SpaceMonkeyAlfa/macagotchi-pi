@@ -70,7 +70,7 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 *Note that you will need adminstrator priveleges on the raspberry pi that you are using.*
 1. Install the 2 in 13 *touch* E-paper HAT.
 2. Follow [this tutorial](https://www.waveshare.com/wiki/2.13inch_Touch_e-Paper_HAT_Manual#Raspberry_Pi) until it the "Download the Demo" stage begins. Since macagotchi comes pre-installed with the waveshare drivers, you will not need to complete this step.
-3. Run `git clone https://github.com/SpaceMonkeyAlfa/macagotchi-pi` in your user directory.
+3. Run `git clone https://github.com/SpaceMonkeyAlfa/macagotchi-pi` in your home/[your username here] directory.
 4. Run `sudo crontab -e` and select the nano text editor
 5. At the end of the document, type `@reboot sudo python3 /home/[your username here]/macagotchi/scripts/macagotchi.py` with [your username here] replaced with, you guessed it, your username.
 6. Press ^S and ^X to save and exit crontab.
