@@ -251,7 +251,7 @@ def displayUpdate(fullUpdate):
           print(f'Name = {name}')
     ip = subprocess.run(['hostname','-I'], stdout=subprocess.PIPE,text=True)
     ip = ip.stdout.replace('\n','')
-    ip = ""
+    #ip = ""
     ipFont = font15
     if ip == "":
        ip = commentary
