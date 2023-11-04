@@ -3,7 +3,8 @@
 ## Overview
 
 
-<img src="https://github.com/SpaceMonkeyAlfa/macagotchi-pi/assets/138901665/dd4c2f2c-4d93-49af-b84f-a86117782faa" width="500">
+
+<img src="https://github.com/SpaceMonkeyAlfa/macagotchi-pi/assets/138901665/390c440f-8e48-4cad-9735-f42e349a2169" width="500">
 
 Macagotchi for the Raspberry Pi is a tamagotchi-like pet ([MacOS](https://github.com/SpaceMonkeyAlfa/macagotchi-macos) / [Windows](https://github.com/SpaceMonkeyAlfa/macagotchi-windows) codebases are also available). It interacts with the user by displaying a virtual pet on the screen while it scans for nearby Wi-Fi networks, and it will become happy when it’s found new SSIDs. Your Macagotchi will also track how many days in a row you’ve been able to keep it happy. While the code is very different, the idea is based on the excellent [pwnagotchi](https://github.com/evilsocket/pwnagotchi) project. The difference here is that Macagotchi doesn’t do anything sinister which might get you arrested or annoy people sitting around you. But seriously, check it out.
 
