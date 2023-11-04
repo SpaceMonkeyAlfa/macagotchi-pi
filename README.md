@@ -90,6 +90,8 @@ By default, your macagotchi's name is set to the current username. To change the
 4. Press ^S ^X to save and exit.
 5. The next time the screen refreshes, you should see the new name. If not, you may need to reboot your pi.  You can do that by pressing and holding on the power button for 2 seconds, then releasing, then waiting for the green light from your pi to go off, unplugging it and plugging it in again.
 
+## License:
+[Mozzila 2.0](https://github.com/SpaceMonkeyAlfa/macagotchi-macos/blob/main/LICENSE)
 
 ## (◕ ‿ ◕) Bye!
 
