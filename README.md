@@ -20,6 +20,8 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
   
 - Raspbian
 
+- Pi Zero 2 W
+
 ## Program Components
 
 
@@ -65,9 +67,9 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 
 ## Additional Notes
 
-- This program is designed for a Raspberry Pi using that includes a Waveshare 2in13 **touch** E-Paper HAT. [macOS](https://github.com/SpaceMonkeyAlfa/macagotchi-macos) and [Windows](https://github.com/SpaceMonkeyAlfa/macagotchi-windows) codebases are also available.
-- Unlike the macOS and Windows versions, macagotchi for pi **does not*** support wardriving mode. Instead, macagotchi scans every 30 seconds, and then after 6 scans (3 minutes) the screen updates. This is because of the limitations of e-paper screens.
-- Unlike macOS and Windows versions, your macagotchi's expressions and commentary are based on data from that day, not from sessions, as, as you'll probably discover, you can leave your macagotchi on for a long time on a power bank before it runs out of power.
+- This program is designed for a Raspberry Pi Zero 2 W using that includes a Waveshare 2in13 **touch** E-Paper HAT. [macOS](https://github.com/SpaceMonkeyAlfa/macagotchi-macos) and [Windows](https://github.com/SpaceMonkeyAlfa/macagotchi-windows) codebases are also available.
+- Unlike the macOS and Windows versions, macagotchi for pi **does not*** support wardriving mode. Instead, Macagotchi scans every 30 seconds, and then after 6 scans (3 minutes) the screen updates. This is because of the limitations of e-paper screens.
+- Unlike macOS and Windows versions, your Macagotchi's expressions and commentary are based on data from that day, not from sessions, as, as you'll probably discover, you can leave your macagotchi on for a long time on a power bank before it runs out of power.
 
 ## Install Proccess
 
