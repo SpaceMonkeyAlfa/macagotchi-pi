@@ -16,7 +16,7 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 
 - Python 3.x
 
-- A Waveshare 2in13 **touch** e-paper HAT
+- A Waveshare 2.13inch **touch** E-Paper HAT
   
 - Raspbian
 
@@ -67,15 +67,15 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 
 ## Additional Notes
 
-- This program is designed for a Raspberry Pi Zero 2 W using that includes a Waveshare 2in13 **touch** E-Paper HAT. [macOS](https://github.com/SpaceMonkeyAlfa/macagotchi-macos) and [Windows](https://github.com/SpaceMonkeyAlfa/macagotchi-windows) codebases are also available.
-- Unlike the macOS and Windows versions, Macagotchi for pi **does not** support wardriving mode. Instead, Macagotchi scans every 30 seconds, and then after 6 scans (3 minutes) the screen updates. This is because of the limitations of e-paper screens.
+- This program is designed for a Raspberry Pi Zero 2 W using that includes a Waveshare 2.13inch **touch** E-Paper HAT. [macOS](https://github.com/SpaceMonkeyAlfa/macagotchi-macos) and [Windows](https://github.com/SpaceMonkeyAlfa/macagotchi-windows) codebases are also available.
+- Unlike the macOS and Windows versions, Macagotchi for pi **does not** support wardriving mode. Instead, Macagotchi scans every 30 seconds, and then after 6 scans (3 minutes) the screen updates. This is because of the limitations of E-Paper screens.
 - Unlike macOS and Windows versions, your Macagotchi's expressions and commentary are based on data from that day, not from sessions, as, as you'll probably discover, you can leave your Macagotchi on for a long time on a power bank before it runs out of power.
 
 ## Install Proccess
 
 *Note that you will need adminstrator priveleges on the raspberry pi that you are using.*
-1. Install the 2 in 13 *touch* E-paper HAT.
-2. Follow [this tutorial](https://www.waveshare.com/wiki/2.13inch_Touch_e-Paper_HAT_Manual#Raspberry_Pi) until it the "Download the Demo" stage begins. Since macagotchi comes pre-installed with the waveshare drivers, you will not need to complete this step.
+1. Install the 2 in 13 *touch* E-Paper HAT.
+2. Follow [this tutorial](https://www.waveshare.com/wiki/2.13inch_Touch_E-Paper_HAT_Manual#Raspberry_Pi) until it the "Download the Demo" stage begins. Since macagotchi comes pre-installed with the waveshare drivers, you will not need to complete this step.
 3. Run `git clone https://github.com/SpaceMonkeyAlfa/macagotchi-pi macagotchi` in your home/[your username here] directory.
 4. Run `sudo crontab -e` and select the nano text editor
 5. At the end of the document, type `@reboot sudo python3 /home/[your username here]/macagotchi/scripts/macagotchi.py` with [your username here] replaced with, you guessed it, your username.
