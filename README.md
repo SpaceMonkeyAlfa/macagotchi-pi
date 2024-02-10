@@ -35,11 +35,11 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 2. **Wi-Fi Network Tracking**
    - Store scanned network SSIDs and dates in a log file.
    - Calculate the number of unique networks found today.
-   - Make your macagotchi happy or sad depending on how many unique ssids it has found today. 
+   - Make your Macagotchi happy or sad depending on how many unique ssids it has found today. 
 
 3. **Display Update**
    - Create an image for the E-Paper display.
-   - Draw user information,  streak, network data, and your macagotchi's face on the screen.
+   - Draw user information,  streak, network data, and your Macagotchi's face on the screen.
    - Update the E-Paper display with the image.
 
 
@@ -68,8 +68,8 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 ## Additional Notes
 
 - This program is designed for a Raspberry Pi Zero 2 W using that includes a Waveshare 2in13 **touch** E-Paper HAT. [macOS](https://github.com/SpaceMonkeyAlfa/macagotchi-macos) and [Windows](https://github.com/SpaceMonkeyAlfa/macagotchi-windows) codebases are also available.
-- Unlike the macOS and Windows versions, macagotchi for pi **does not*** support wardriving mode. Instead, Macagotchi scans every 30 seconds, and then after 6 scans (3 minutes) the screen updates. This is because of the limitations of e-paper screens.
-- Unlike macOS and Windows versions, your Macagotchi's expressions and commentary are based on data from that day, not from sessions, as, as you'll probably discover, you can leave your macagotchi on for a long time on a power bank before it runs out of power.
+- Unlike the macOS and Windows versions, Macagotchi for pi **does not** support wardriving mode. Instead, Macagotchi scans every 30 seconds, and then after 6 scans (3 minutes) the screen updates. This is because of the limitations of e-paper screens.
+- Unlike macOS and Windows versions, your Macagotchi's expressions and commentary are based on data from that day, not from sessions, as, as you'll probably discover, you can leave your Macagotchi on for a long time on a power bank before it runs out of power.
 
 ## Install Proccess
 
@@ -81,14 +81,14 @@ As [pwnagotchi](https://github.com/evilsocket/pwnagotchi)'s less sinister cousin
 5. At the end of the document, type `@reboot sudo python3 /home/[your username here]/macagotchi/scripts/macagotchi.py` with [your username here] replaced with, you guessed it, your username.
 6. Press ^S and ^X to save and exit crontab.
 7. Run `sudo reboot`
-Once the pi reboots, the screen should update to show your macagotchi's face after about 20 seconds. Congratulations! You are now the proud owner of a macagotchi.
+Once the pi reboots, the screen should update to show your Macagotchi's face after about 20 seconds. Congratulations! You are now the proud owner of a Macagotchi.
 
-## Changing the name of your macagotchi 
+## Changing the name of your Macagotchi 
 
-By default, your macagotchi's name is set to the current username. To change the name, simply:
+By default, your Macagotchi's name is set to the current username. To change the name, simply:
 1. Run `cd macagotchi/scripts` to enter the scripts and save files directory
 2. Run `nano name.txt`
-3. Type in the new name for your macagotchi.
+3. Type in the new name for your Macagotchi.
 4. Press ^S ^X to save and exit.
 5. The next time the screen refreshes, you should see the new name. If not, you may need to reboot your pi.  You can do that by pressing and holding on the power button for 2 seconds, then releasing, then waiting for the green light from your pi to go off, unplugging it and plugging it in again.
 
